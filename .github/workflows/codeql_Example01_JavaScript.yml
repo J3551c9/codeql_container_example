@@ -29,7 +29,8 @@ jobs:
 
       - name: Set safe directory
         run: |
-          git config --global --add safe.directory /__w/CodeQL_containerizedApp/CodeQL_containerizedApp/
+          git config --global --add safe.directory /__w/CodeQL_containerizedApp/CodeQL_containerizedApp/Example01_JavaScript/ 
+          # added the path of the example
 
          # Initializes the CodeQL tools for scanning.
       - name: Initialize CodeQL
